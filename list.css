@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*header section*/
+header{
+    height: 60px;
+    /*border: 5px solid hotpink;*/
+    background-color: aqua;
+}
+
+#brand{
+    float: left;
+    color: white;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 1%;
+    float: left;
+}
+
+.socialLogo{
+    height: 50px;
+    float: right;
+}
+
+/*Content Section*/
+#content{
+    width: 85%;
+    margin-left: 5.5%;
+    margin-top: 6%;
+    /*border: 5px solid red;*/
+    display: inline-block;
+} 
+
+.filter{
+    height: 800px;
+    width: 20%;
+    border: 3px solid gray;
+    float: left;
+    margin-top: 3%;
+    background-color: rgb(247, 211, 143);
+}
+
+#restContent{
+    height: 1000px;
+    width: 70%;
+    float: left;
+    border: 3px solid olivedrab;
+    margin-left: 3%;
+    
+}
+
+.restheading{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    /* font-variant-position: sub; */
+    /* margin-left: 5%; */
+    
+    display: block;
+  }
+ 
+  .tileContainer{
+    height: 30%;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 3%;
+    /*border: 2px solid #000000;*/
+     float: left;
+    background-color:white;
+    box-shadow: 10px 15px 10px gray;
+  
+}
+
+.tileContainer:hover{
+  transform: scale(1.1);
+
+}
+
+.tilecomponent1{
+width: 20px;
+height: 30px;
+}
+
+.tilecomponent1 >img{
+  width: 212px;
+  height: 720%;
+}
+
+.tilecomponent2{
+  /* width: 20%; */
+  margin-left: 15%;
+  margin-top: 65%;
+  
+
+}
+  
+.compHeading{
+  font-size: 25px;
+  color:white;
+  font-weight: bold;
+  margin-top: 15px;
+  
+}
+
+.feature_container{
+    display: flex;
+}
+
+figure{
+    margin-left: 5%;
+}
+
+.featureIcon{
+    height: 30px;
+    width: 30px;
+
+
+
+}
+/*.compsubHeading{
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  
+}*/
+
+/*Footer Section*/
+footer{
+    /*border:5px groove green;*/
+    background-color: plum;
+    color: white;
+    text-align: center;
+}
+
+.foottext{
+    font-size: 20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width: 32%;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border: none;
+}
+
+ul{
+    list-style-type:none;
+}
+
+@media screen and (max-width: 1600px){
+    body{
+        background-color: rgb(188, 188, 222);
+    }
+}
+
+@media screen and (max-width: 1400px){
+    body{
+        background-color: rgb(156, 156, 237);
+    }
+}
+
+@media screen and (max-width: 1100px){
+    body{
+        background-color: rgb(242, 203, 105);
+    }
+}
+
+@media screen and (max-width: 900px){
+    body{
+        background-color: rgb(231, 152, 236);
+    }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-color: rgb(155, 240, 190);
+    }
+}
